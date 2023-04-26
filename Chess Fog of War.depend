@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1682496126 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main.cpp
+	"players.h"
+
+1682492920 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\board.cpp
+	"board.h"
+
+1682493039 c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\board.h
+	<bits/stdc++.h>
+
+1682496590 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\match.cpp
+	"match.h"
+
+1682496249 c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\match.h
+	"players.h"
+
+1682494243 c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\players.h
+	"board.h"
+
+1682494317 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\randommove.cpp
+	"players.h"
+
+1682494857 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\capturelargest.cpp
+	"players.h"
+
+1682494946 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\capturewithlargestdifference.cpp
+	"players.h"
+
+1682527658 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\tournament.cpp
+	"tournament.h"
+
+1682496249 c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\tournament.h
+	"players.h"
+
