@@ -1,0 +1,7 @@
+1. c2-c3 c7-c5
+2. Qd1-b3 Qd8-b6
+3. Qb3-b6 a7-b6
+4. c3-c4 Nb8-c6
+5. Nb1-c3 Nc6-b4
+6. Nc3-b5 Nb4-c2
+7. Nb5-c7 Nc2-e1

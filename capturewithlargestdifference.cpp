@@ -25,7 +25,7 @@ Move CaptureWithLargestDifference::GetMove(const Board& b0, const Board& b)
                                                                      > cwldvalue(b[r.to.x][r.to.y].type) - cwldvalue(b[r.from.x][r.from.y].type); });
     for (size_t i=1; i<v.size(); i++)
         if (cwldvalue(b[v[i].to.x][v[i].to.y].type) - cwldvalue(b[v[i].from.x][v[i].from.y].type)
-         != cwldvalue(b[v[i-1].to.x][v[i-1].to.y].type))
+         != cwldvalue(b[v[i-1].to.x][v[i-1].to.y].type) - cwldvalue(b[v[i-1].from.x][v[i-1].from.y].type))
             return v[rand()%i];
     return v[rand()%v.size()];
 }

@@ -74,7 +74,17 @@
 		<Linker>
 			<Add directory="C:/Users/Kostya/Desktop/SFML-2.5.1/lib" />
 		</Linker>
+		<Unit filename="board.cpp" />
+		<Unit filename="board.h" />
+		<Unit filename="capturelargest.cpp" />
+		<Unit filename="capturewithlargestdifference.cpp" />
+		<Unit filename="genetic.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="players.h" />
+		<Unit filename="positionaryevaluator.cpp" />
+		<Unit filename="randommove.cpp" />
+		<Unit filename="tournament.cpp" />
+		<Unit filename="tournament.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
