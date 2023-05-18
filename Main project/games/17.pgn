@@ -1,0 +1,43 @@
+[GameNr "40780695"]
+[TimeControl "5+1"]
+[Variant "Fog of War"]
+[RuleVariants "EnPassant FogOfWar Play4Mate"]
+[White "cocaiconcachaha"]
+[WhiteElo "1475"]
+[Black "oferwald"]
+[BlackElo "2357"]
+[Result "0-1"]
+[Termination "White forfeits on time • 0-1"]
+[Site "www.chess.com/variants/fog-of-war/game/40780695"]
+[Date "Wed Mar 15 2023 09:07:20 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. d2d4 e7e6
+2. Nb1c3 c7c6
+3. Bc1f4 a7a5
+4. a2a3 b7b5
+5. b2b4 a5b4
+6. a3b4 Ra8a1
+7. Qd1a1 Bc8b7
+8. e2e3 Ng8f6
+9. Bf1d3 Bf8e7
+10. h2h3 d7d5
+11. g2g4 Nb8d7
+12. Nc3a2 Nd7b6
+13. Ng1e2 Nb6c4
+14. Bd3c4 d5c4
+15. Ke1g1 Nf6d5
+16. Ne2g3 Ke8g8
+17. Na2c3 Nd5c3
+18. Qa1c3 h7h6
+19. e3e4 Qd8d7
+20. e4e5 Qd7c8
+21. Qc3e3 f7f6
+22. e5f6 Be7f6
+23. c2c3 Rf8e8
+24. Ng3h5 Qc8d8
+25. Nh5f6 Qd8f6
+26. h3h4 Qf6f7
+27. g4g5 h6h5
+28. Qe3e5 g7g6
+29.  0-1

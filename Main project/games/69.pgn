@@ -1,0 +1,50 @@
+[GameNr "46186015"]
+[TimeControl "10+0"]
+[Variant "Fog of War"]
+[RuleVariants "EnPassant FogOfWar Play4Mate"]
+[White "oferwald"]
+[WhiteElo "2428"]
+[Black "TooSharky"]
+[BlackElo "1531"]
+[Result "1-0"]
+[Termination "Black resigned • 1-0"]
+[Site "www.chess.com/variants/fog-of-war/game/46186015"]
+[Date "Tue Apr 25 2023 22:32:55 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. b2b3 d7d5
+2. Bc1b2 Bc8f5
+3. e2e3 Nb8c6
+4. Ng1e2 Qd8d6
+5. Ne2g3 Bf5g4
+6. f2f3 Bg4e6
+7. Bf1d3 d5d4
+8. Ke1g1 d4e3
+9. d2e3 Ra8d8
+10. Kg1h1 Nc6b4
+11. a2a3 Nb4d3
+12. c2d3 Qd6d3
+13. Qd1d3 Rd8d3
+14. e3e4 Rd3b3
+15. Bb2c3 Ng8f6
+16. Ng3e2 Be6c4
+17. Nb1d2 Bc4e2
+18. Nd2b3 Be2f1
+19. Ra1f1 e7e5
+20. Bc3e1 Bf8d6
+21. Be1f2 Ke8g8
+22. Nb3c1 b7b5
+23. Nc1e2 a7a6
+24. Ne2g3 c7c5
+25. h2h4 c5c4
+26. h4h5 Nf6h5
+27. Ng3h5 Rf8d8
+28. g2g4 Bd6a3
+29. Bf2h4 Ba3b4
+30. Bh4d8 Bb4c5
+31. Bd8g5 c4c3
+32. Bg5c1 c3c2
+33. Kh1g2 Bc5a3
+34. Bc1a3 b5b4
+35. Ba3b4 c2c1=Q
+36. Rf1c1  1-0

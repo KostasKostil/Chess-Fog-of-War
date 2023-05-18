@@ -1,0 +1,51 @@
+[GameNr "40691171"]
+[TimeControl "3+2"]
+[Variant "Fog of War"]
+[RuleVariants "EnPassant FogOfWar Play4Mate"]
+[White "ErikGruen"]
+[WhiteElo "1497"]
+[Black "oferwald"]
+[BlackElo "2346"]
+[Result "0-1"]
+[Termination "King captured • 0-1"]
+[Site "www.chess.com/variants/fog-of-war/game/40691171"]
+[Date "Tue Mar 14 2023 17:30:15 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. b2b4 e7e6
+2. Bc1b2 c7c6
+3. e2e3 a7a6
+4. Qd1e2 b7b6
+5. Ng1f3 Bc8b7
+6. g2g4 b6b5
+7. a2a3 Ng8f6
+8. h2h3 Bf8e7
+9. Nf3d4 d7d5
+10. Bf1g2 Nb8d7
+11. h3h4 Nd7b6
+12. h4h5 Nb6c4
+13. Bb2c3 Be7d6
+14. d2d3 Nc4b6
+15. Nb1d2 e6e5
+16. Nd4e6 f7e6
+17. Bc3e5 Bd6e5
+18. Ra1b1 Be5d6
+19. Rb1b3 Qd8e7
+20. Qe2d1 Ke8c8
+21. e3e4 d5e4
+22. d3e4 Bd6c7
+23. f2f3 Kc8b8
+24. Bg2f1 h7h6
+25. Nd2b1 Rd8d1
+26. Ke1d1 Rh8d8
+27. Kd1e1 Kb8a8
+28. Nb1c3 Bc7b8
+29. Rh1g1 e6e5
+30. Rg1h1 Bb7c8
+31. Bf1e2 Bc8e6
+32. Ke1f2 Be6b3
+33. c2b3 Qe7b7
+34. a3a4 Bb8a7
+35. a4b5 c6b5
+36. Nc3d5 Nb6d5
+37. e4d5 Ba7f2 0-1

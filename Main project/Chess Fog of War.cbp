@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Chess Fog of War" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Chess Fog of War" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++17" />
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-audio-s-d" />
+					<Add library="sfml-network-s-d" />
+					<Add library="sfml-system-s-d" />
+					<Add library="freetype" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="openal32" />
+					<Add library="flac" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Chess Fog of War" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DSFML_STATIC" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-audio-s" />
+					<Add library="sfml-network-s" />
+					<Add library="sfml-system-s" />
+					<Add library="freetype" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="openal32" />
+					<Add library="flac" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/Users/Kostya/Desktop/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Kostya/Desktop/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="board.cpp" />
+		<Unit filename="board.h" />
+		<Unit filename="captureking.cpp" />
+		<Unit filename="capturelargest.cpp" />
+		<Unit filename="capturewithlargestdifference.cpp" />
+		<Unit filename="genetic.cpp" />
+		<Unit filename="kknn.cpp" />
+		<Unit filename="kknn.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mystockfish.cpp" />
+		<Unit filename="mystockfish.h" />
+		<Unit filename="neuralnetwork.cpp" />
+		<Unit filename="players.h" />
+		<Unit filename="positionaryevaluator.cpp" />
+		<Unit filename="possibleboardlist.cpp" />
+		<Unit filename="randommove.cpp" />
+		<Unit filename="reinforcementlearning.cpp" />
+		<Unit filename="simplestockfish.cpp" />
+		<Unit filename="tournament.cpp" />
+		<Unit filename="tournament.h" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.h" />
+		<Unit filename="visual.cpp" />
+		<Unit filename="visual.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

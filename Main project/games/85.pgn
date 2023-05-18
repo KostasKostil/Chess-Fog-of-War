@@ -1,0 +1,59 @@
+[GameNr "41465946"]
+[TimeControl "10+0"]
+[Variant "Fog of War"]
+[RuleVariants "EnPassant FogOfWar Play4Mate"]
+[White "oferwald"]
+[WhiteElo "2387"]
+[Black "Olmeas"]
+[BlackElo "1586"]
+[Result "1-0"]
+[Termination "Black forfeits on time • 1-0"]
+[Site "www.chess.com/variants/fog-of-war/game/41465946"]
+[Date "Mon Mar 20 2023 12:42:03 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. b2b3 d7d5
+2. Bc1b2 e7e5
+3. e2e3 e5e4
+4. Ng1e2 f7f5
+5. Ne2g3 Ng8f6
+6. Bf1e2 b7b5
+7. Be2h5 Nf6h5
+8. Qd1h5 g7g6
+9. Qh5d1 c7c6
+10. Bb2h8 Qd8e7
+11. Bh8c3 Bc8e6
+12. h2h4 Nb8d7
+13. h4h5 Ke8c8
+14. h5g6 h7g6
+15. Qd1e2 Bf8g7
+16. Bc3g7 Qe7g7
+17. Nb1c3 d5d4
+18. e3d4 Be6b3
+19. a2b3 a7a6
+20. Nc3a2 Kc8b7
+21. c2c3 a6a5
+22. Qe2d1 a5a4
+23. b3b4 Kb7b6
+24. Na2c1 Qg7e7
+25. Qd1e2 c6c5
+26. d4c5 Nd7c5
+27. b4c5 Qe7c5
+28. Qe2e3 Qc5e3
+29. f2e3 Kb6a6
+30. Nc1a2 g6g5
+31. Ng3e2 f5f4
+32. e3f4 g5f4
+33. Ne2f4 e4e3
+34. d2e3 b5b4
+35. c3b4 a4a3
+36. Nf4e2 Rd8a8
+37. Na2c3 Ra8a7
+38. b4b5 Ka6b7
+39. Ke1g1 Kb7a8
+40. e3e4 Ra7b7
+41. Rf1b1 Rb7b8
+42. Rb1d1 Rb8c8
+43. Rd1d5 Ka8b7
+44. e4e5 Rc8d8
+45. Rd5d8  1-0

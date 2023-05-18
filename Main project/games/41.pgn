@@ -1,0 +1,20 @@
+[GameNr "41593485"]
+[TimeControl "5+1"]
+[Variant "Fog of War"]
+[RuleVariants "EnPassant FogOfWar Play4Mate"]
+[White "oferwald"]
+[WhiteElo "2336"]
+[Black "cocaiconcachaha"]
+[BlackElo "1474"]
+[Result "1-0"]
+[Termination "Black forfeits on time • 1-0"]
+[Site "www.chess.com/variants/fog-of-war/game/41593485"]
+[Date "Tue Mar 21 2023 09:43:41 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. b2b3 d7d5
+2. Bc1b2 Nb8c6
+3. e2e3 Bc8f5
+4. Ng1e2 Nc6b4
+5. Ne2g3 Nb4c2
+6. Qd1c2  1-0

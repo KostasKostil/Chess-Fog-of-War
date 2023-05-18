@@ -1,0 +1,33 @@
+[GameNr "44536413"]
+[TimeControl "5+0"]
+[Variant "Fog of War"]
+[RuleVariants "EnPassant FogOfWar Play4Mate"]
+[White "chaodins"]
+[WhiteElo "1500"]
+[Black "oferwald"]
+[BlackElo "2380"]
+[Result "0-1"]
+[Termination "White resigned • 0-1"]
+[Site "www.chess.com/variants/fog-of-war/game/44536413"]
+[Date "Tue Apr 11 2023 21:32:37 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. d2d4 e7e6
+2. e2e4 c7c6
+3. Ng1f3 a7a5
+4. Nf3e5 d7d6
+5. Ne5c4 Ng8f6
+6. Qd1f3 b7b5
+7. Bc1g5 b5c4
+8. Bg5f6 Qd8f6
+9. Qf3e2 d6d5
+10. e4d5 c6d5
+11. Nb1d2 Bc8d7
+12. Nd2f3 Bf8b4
+13. c2c3 Bb4d6
+14. Ke1c1 Ke8g8
+15. b2b4 a5b4
+16. c3b4 Nb8c6
+17. Qe2d2 Bd6b4
+18. Qd2b4 Nc6b4
+19.  0-1
