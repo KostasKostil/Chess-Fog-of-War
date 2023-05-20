@@ -10,6 +10,6 @@ void SimpleStockfish::Initialize(Color color)
 
 Move SimpleStockfish::GetMove(const Board& b0, const Board& b)
 {
-    return Stockfish::Run(b, c, 2).second;
+    return Stockfish::Run(b, c, 3).second;
 }
 

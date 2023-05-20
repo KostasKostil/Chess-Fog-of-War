@@ -1,13 +1,13 @@
 #include "players.h"
 #include "mystockfish.h"
-#define TIME_LIMIT 0.2
+#define TIME_LIMIT 0.5
 
 using namespace std;
 
 void PossibleBoardList::Initialize(Color color)
 {
     c = color;
-    possibleBoards = { InitialBoard() };
+    lastpossibleBoards = possibleBoards = { InitialBoard() };
     isfirstmove = true;
     otherwise = make_shared<SimpleStockfish>();
     otherwise -> Initialize(c);
@@ -23,9 +23,8 @@ Move PossibleBoardList::GetMove(const Board& b0, const Board& b)
                 nb.push_back(ApplyMove(b, mylastmove));
         possibleBoards = nb;
     }
-    if (possibleBoards.empty())
-        return otherwise->GetMove(b0, b);
-    if (!isfirstmove || c==Color::Black)
+
+    if ((!isfirstmove || c==Color::Black) && !possibleBoards.empty())
     { // opponent last move
         vector<Board> nb;
         auto t = clock();
@@ -44,7 +43,17 @@ Move PossibleBoardList::GetMove(const Board& b0, const Board& b)
         possibleBoards = nb;
     }
     if (possibleBoards.empty())
-        return otherwise->GetMove(b0, b);
+    {
+        vector<Board> nb;
+        auto t = clock();
+        while ((clock() - t)*1.0/CLOCKS_PER_SEC < TIME_LIMIT * 0.05)
+            nb.push_back(GenerateBoard(lastpossibleBoards[rand()%lastpossibleBoards.size()], b, c));
+        sort(nb.begin(), nb.end());
+        nb.erase(unique(nb.begin(), nb.end()), nb.end());
+        random_shuffle(nb.begin(), nb.end());
+        possibleBoards = nb;
+    }
+    lastpossibleBoards = possibleBoards;
 
     cout<<possibleBoards.size()<<"\n";
 

@@ -603,10 +603,10 @@
 1683804742 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\captureking.cpp
 	"players.h"
 
-1684343601 c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\players.h
+1684513528 c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\players.h
 	"board.h"
 
-1682494857 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\capturelargest.cpp
+1684514227 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\capturelargest.cpp
 	"players.h"
 
 1682591526 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\capturewithlargestdifference.cpp
@@ -644,7 +644,7 @@
 1683804772 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\positionaryevaluator.cpp
 	"players.h"
 
-1684238512 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\possibleboardlist.cpp
+1684508095 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\possibleboardlist.cpp
 	"players.h"
 	"mystockfish.h"
 
@@ -655,7 +655,7 @@
 	"players.h"
 	"kknn.h"
 
-1683833798 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\simplestockfish.cpp
+1684504629 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\simplestockfish.cpp
 	"players.h"
 	"mystockfish.h"
 
@@ -675,9 +675,16 @@
 	"players.h"
 	<SFML/Graphics.hpp>
 
-1684351288 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\main.cpp
+1684515123 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\main.cpp
 	"tournament.h"
 	"visual.h"
 	"utils.h"
 	"mystockfish.h"
+
+1684508435 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\possibleboardgenerator.cpp
+	"players.h"
+	"mystockfish.h"
+
+1684516907 source:c:\users\kostya\desktop\ma³n.cpp\diploma\chess-fog-of-war\main project\supporter.cpp
+	"players.h"
 

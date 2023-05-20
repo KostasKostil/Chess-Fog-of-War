@@ -66,7 +66,7 @@ double Iteration() // returns total change
 int main()
 {
     Read("match_results.txt");
-    while (Iteration() > 1e-4)
+    while (Iteration() > 1e-6)
     {
         for (int i=0; i<n; i++)
             cout<<rating[i]<<" ";
@@ -75,6 +75,22 @@ int main()
     for (int i=0; i<n; i++)
         cout<<rating[i] - rating[0]<<" ";
     cout<<"\n";
+
+    for (int i=0; i<n; i++)
+    {
+        cout<<"---\n";
+        for (int j=0; j<n; j++)
+        {
+            if (i==j)
+                cout<<"\n\n";
+            else
+            {
+                cout<<mr[j][i].wins+mr[j][i].draws/2.0<<"\n";
+                cout<<mr[i][j].loses+mr[i][j].draws/2.0<<"\n";
+            }
+        }
+        cout<<"---\n";
+    }
 
     return 0;
 }

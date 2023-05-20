@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int clvalue(Type t)
+double clvalue(Type t)
 {
     if (t == Type::Pawn) return 1;
     if (t == Type::Knight) return 3;
@@ -27,4 +27,3 @@ Move CaptureLargest::GetMove(const Board& b0, const Board& b)
             return v[rand()%i];
     return v[rand()%v.size()];
 }
-

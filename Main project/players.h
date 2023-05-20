@@ -44,6 +44,15 @@ private:
     Color c;
 };
 
+class Supporter : public Player
+{
+public:
+    void Initialize(Color color) override;
+    Move GetMove(const Board& b0, const Board& b) override;
+private:
+    Color c;
+};
+
 class ParametrizedPlayer : public Player
 {
 public:
@@ -75,6 +84,17 @@ private:
     Color c;
 };
 
+Board GenerateBoard(Board previousBoard, Board foggedBoard, Color c);
+class PossibleBoardGenerator : public Player
+{
+public:
+    void Initialize(Color color) override;
+    Move GetMove(const Board& b0, const Board& b) override;
+private:
+    Board possibleBoard;
+    Color c;
+};
+
 class PossibleBoardList : public Player
 {
 public:
@@ -82,6 +102,7 @@ public:
     Move GetMove(const Board& b0, const Board& b) override;
 private:
     std::vector<Board> possibleBoards;
+    std::vector<Board> lastpossibleBoards;
     bool isfirstmove;
     Move mylastmove;
     Color c;

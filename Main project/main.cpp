@@ -12,9 +12,11 @@ void GlobalTournament()
                         make_shared<CaptureKing>(),
                         make_shared<CaptureLargest>(),
                         make_shared<CaptureWithLargestDifference>(),
+                        make_shared<Supporter>(),
                         make_shared<PositionaryEvaluator>(),
                         make_shared<NeuralNetworkPlayer>(),
                         make_shared<SimpleStockfish>(),
+                        make_shared<PossibleBoardGenerator>(),
                         make_shared<PossibleBoardList>(),
                    },
                    100, "match_results.txt");
@@ -29,12 +31,15 @@ int main()
 //    utils::GetDataset();
 //    nn_Train();
 
-//    VisPlay(make_shared<SimpleStockfish>());
+    VisPlay(make_shared<PossibleBoardList>());
 
-//    PlayGame(make_shared<PossibleBoardList>(), make_shared<PossibleBoardList>(), "game.txt");
+//    MatchResult mr = PlayMatch(make_shared<CaptureLargest>(), make_shared<Supporter>(), 500);
+//    cout<<mr.wins<<" "<<mr.draws<<" "<<mr.loses<<"\n";
+
+//    PlayGame(make_shared<Supporter>(), make_shared<Supporter>(), "game.txt");
 //    Visualize("game.txt");
 
-    GlobalTournament();
+//    GlobalTournament();
 
 //    int n = 512;
 //    vector<shared_ptr<ParametrizedPlayer> > v;
